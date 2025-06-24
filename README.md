@@ -10,5 +10,5 @@ The core of the model is a **hybrid Graph Neural Network (GNN)** architecture co
 
 - **Hybrid GNN model**: Combines structural graph learning with attention and refinement layers (`GIN → GAT → GraphConv`)
 - **RDKit-based molecular descriptors** Capture relevant polymer chemical features from monomer units
-- **PCA-based fusion**: Dimensionality reduction and noise filtering for descriptor fusion with graph node features
+- **PCA compression**: Dimensionality reduction and noise filtering for descriptor fusion with graph node features
 - **Multi-target regression**: Joint prediction of **Tg** and **Tm** in a single model
