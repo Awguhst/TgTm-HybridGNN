@@ -1,6 +1,6 @@
 # A Graph-Based Learning Framework for Simultaneous Tg and Tm Prediction of Polymers Using Hybrid GNN and PCA Descriptor Fusion
 
-This project implements a deep learning pipeline for the **simultaneous prediction** of **glass transition temperature (Tg)** and **melting temperature (Tm)** in **polymers**, based on their **monomer SMILES representations**.
+This project implements a deep learning pipeline for the **simultaneous prediction** of the **glass transition temperature (Tg)** and **melting temperature (Tm)** of **polymers** based on their **monomer SMILES representations**.
 
 The core of the model is a **hybrid Graph Neural Network (GNN)** architecture composed of `GIN → GAT → GraphConv` layers that learn hierarchical structure from polymer graphs. These **graph embeddings** are fused with **physicochemical descriptors** (e.g., molecular weight, LogP, rotatable bonds), which are computed via **RDKit** and compressed using **Principal Component Analysis (PCA)** to reduce redundancy and noise.
 
