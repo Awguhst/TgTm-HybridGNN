@@ -1,4 +1,4 @@
-# 🧬 A Graph-Based Learning Framework for Simultaneous Tg and Tm Prediction of Polymers Using Hybrid GNN and PCA Descriptor Fusion
+# A Graph-Based Learning Framework for Simultaneous Tg and Tm Prediction of Polymers Using Hybrid GNN and PCA Descriptor Fusion
 
 This project introduces a deep learning pipeline for the **simultaneous prediction** of **glass transition temperature (Tg)** and **melting temperature (Tm)** in **polymeric materials**, based on their SMILES representations.
 
