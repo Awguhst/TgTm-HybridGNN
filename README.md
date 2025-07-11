@@ -1,28 +1,52 @@
-# A Graph-Based Learning Framework for Simultaneous Tg and Tm Prediction of Polymers Using Hybrid GNN and PCA Descriptor Fusion
+# 🧪 HybridGNN Polymer Property Predictor
 
-This project implements a deep learning pipeline for the **simultaneous prediction** of the **glass transition temperature (Tg)** and **melting temperature (Tm)** of **polymers** based on their **monomer SMILES representations**.
+This project presents a machine learning framework for the **simultaneous prediction** of two fundamental thermal properties of polymers:
 
-The core of the model is a **hybrid Graph Neural Network (GNN)** architecture composed of `GIN → GAT → GraphConv` layers that learn hierarchical structure from polymer graphs. These **graph embeddings** are fused with **physicochemical descriptors** (e.g., molecular weight, LogP, rotatable bonds), which are computed via **RDKit** and compressed using **Principal Component Analysis (PCA)** to reduce redundancy and noise.
+- **Glass Transition Temperature (Tg)**
+- **Melting Temperature (Tm)**
+
+given their **monomer SMILES representations**.
+
+The core model leverages a **Hybrid Graph Neural Network (HybridGNN)** architecture that combines **graph-based molecular structure** with **physicochemical descriptors** for accurate, data-driven predictions.
 
 ---
 
-## Key Features
+## 🎥 Demo
 
-- **Hybrid GNN model**: Combines structural graph learning with attention and refinement layers
-- **RDKit-based molecular descriptors** Capture relevant polymer chemical features from monomer units
-- **PCA compression**: Dimensionality reduction and noise filtering for descriptor fusion with graph node features
-- **Multi-target regression**: Joint prediction of **Tg** and **Tm** in a single model
+<img src="docs/demo.gif" alt="Streamlit App Demo" width="100%"/>
 
-## References
+> *(Replace the `demo.gif` path with your actual GIF location — e.g. `app/static/demo.gif` or similar)*
 
-- Xu, K., Hu, W., Leskovec, J., & Jegelka, S. (2019). How Powerful are Graph Neural Networks? *Proceedings of the International Conference on Learning Representations (ICLR)*.  
-  [https://doi.org/10.48550/arXiv.1810.00826](https://doi.org/10.48550/arXiv.1810.00826)
+---
 
-- Veličković, P., Cucurull, G., Casanova, A., Romero, A., Lio, P., & Bengio, Y. (2018). Graph Attention Networks. *International Conference on Learning Representations (ICLR)*.  
-  [https://doi.org/10.48550/arXiv.1710.10903](https://doi.org/10.48550/arXiv.1710.10903)
+## 🎯 Motivation
 
-- RDKit: Open-source cheminformatics software. (2006).  
-  Available at: [http://www.rdkit.org](http://www.rdkit.org)
+Understanding and predicting polymer thermal properties is essential for designing new materials in fields such as packaging, coatings, electronics, and aerospace. Traditional experimental methods are resource-intensive and time-consuming.
 
-- Jolliffe, I.T. (2002). *Principal Component Analysis*. Springer Series in Statistics.  
-  ISBN: 978-0-387-95442-4
+This project aims to **accelerate discovery** by combining recent advances in **graph-based deep learning** with domain-specific chemical descriptors, enabling rapid and accessible property prediction.
+
+---
+
+## 🔬 Overview
+
+The prediction model is based on a **HybridGNN** architecture that:
+
+- Constructs a graph representation of the monomer using atom/bond information
+- Extracts RDKit-based descriptors (e.g., molecular weight, LogP, H-bond acceptors)
+- Applies **Principal Component Analysis (PCA)** to reduce descriptor dimensionality
+- Fuses the learned **graph embeddings** with **descriptor vectors**
+- Performs **multi-target regression** to jointly predict Tg and Tm
+
+An interactive **Streamlit-based interface** allows users to input SMILES strings and instantly visualize and predict polymer properties.
+
+---
+
+## 🧠 Model Architecture
+
+The HybridGNN consists of a stack of:
+
+- `Graph Isomorphism Network (GIN)`
+- `Graph Attention Network (GAT)`
+- `GraphConv` layers
+
+These layers extract multi-scale structural information, which is then combined with compressed descriptors through fully connected layers.
