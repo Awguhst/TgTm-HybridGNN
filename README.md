@@ -19,7 +19,7 @@ The core model leverages a **Hybrid Graph Neural Network (HybridGNN)** architect
 
 ## 🎯 Motivation
 
-Understanding and predicting **polymer thermal properties** is essential for designing new materials in fields such as **packaging**, **coatings**, **electronics**, and **aerospace**. However, traditional experimental methods tend to be **resource-intensive** and **time-consuming**.
+Understanding and predicting **polymer thermal properties** is essential for designing new materials in fields such as **packaging**, **coatings**, **electronics**, and **aerospace**. However, traditional experimental methods tend to be **resource intensive** and **time consuming**.
 
 This project facilitates polymer property prediction by integrating modern **graph-based deep learning** techniques with **chemical descriptors**, providing a scalable and data-driven alternative to conventional experimental approaches.
 
