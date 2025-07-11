@@ -50,3 +50,17 @@ The HybridGNN consists of a stack of:
 These layers extract multi-scale structural information, which is then combined with compressed descriptors through fully connected layers.
 
 ---
+
+## 📚 References
+
+- Xu, K., Hu, W., Leskovec, J., & Jegelka, S. (2019). How Powerful are Graph Neural Networks? *International Conference on Learning Representations (ICLR)*.  
+  [https://arxiv.org/abs/1810.00826](https://arxiv.org/abs/1810.00826)
+
+- Veličković, P., Cucurull, G., Casanova, A., Romero, A., Lio, P., & Bengio, Y. (2018). Graph Attention Networks. *International Conference on Learning Representations (ICLR)*.  
+  [https://arxiv.org/abs/1710.10903](https://arxiv.org/abs/1710.10903)
+
+- RDKit: Open-source cheminformatics toolkit. Available at [http://www.rdkit.org](http://www.rdkit.org)
+
+- Jolliffe, I. T. (2002). *Principal Component Analysis*. Springer Series in Statistics. ISBN: 978-0-387-95442-4
+
+---
