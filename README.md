@@ -13,9 +13,7 @@ The core model leverages a **Hybrid Graph Neural Network (HybridGNN)** architect
 
 ## 🎥 Demo
 
-<img src="docs/demo.gif" alt="Streamlit App Demo" width="100%"/>
-
-> *(Replace the `demo.gif` path with your actual GIF location — e.g. `app/doc/demo.gif` or similar)*
+![Streamlit app GIF](app/doc/demo.gif)
 
 ---
 
