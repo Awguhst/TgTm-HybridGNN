@@ -51,7 +51,7 @@ These layers extract multi-scale structural information, which is then combined 
 
 ---
 
-## 📚 References
+## References
 
 - Xu, K., Hu, W., Leskovec, J., & Jegelka, S. (2019). How Powerful are Graph Neural Networks? *International Conference on Learning Representations (ICLR)*.  
   [https://arxiv.org/abs/1810.00826](https://arxiv.org/abs/1810.00826)
