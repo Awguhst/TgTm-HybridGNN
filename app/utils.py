@@ -38,5 +38,4 @@ def calculate_descriptors(mol):
     return torch.tensor(descriptors, dtype=torch.float).view(1, -1)
 
 def from_smiles(smile):
-    # Your custom logic, then call the actual from_smiles like this:
     return tg_from_smiles(smile)
