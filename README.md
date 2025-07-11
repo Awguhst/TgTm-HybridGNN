@@ -13,7 +13,7 @@ The core model leverages a **Hybrid Graph Neural Network (HybridGNN)** architect
 
 ## 🎥 Demo
 
-![Streamlit app GIF](../doc/demo.gif)
+![Streamlit app GIF](doc/demo.gif)
 
 ---
 
