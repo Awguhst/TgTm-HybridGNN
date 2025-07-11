@@ -19,9 +19,9 @@ The core model leverages a **Hybrid Graph Neural Network (HybridGNN)** architect
 
 ## 🎯 Motivation
 
-Understanding and predicting the thermal properties of polymers such as the **glass transition temperature (Tg)** and **melting temperature (Tm)** is critical for the rational design of materials across industries, including **packaging**, **coatings**, **electronics**, and **aerospace**. However, conventional experimental approaches to measure these properties are often **time consuming**, **resource intensive**, and **limited in scalability**.
+Understanding and predicting **polymer thermal properties** is essential for designing new materials in fields such as **packaging**, **coatings**, **electronics**, and **aerospace**. However, traditional experimental methods tend to be **resource-intensive** and **time-consuming**.
 
-This project addresses these challenges by leveraging **graph-based deep learning** in combination with **chemically informed molecular descriptors**. By integrating structural graph representations with domain-specific features, the model provides a **scalable, data-driven alternative** that enables **rapid and accurate prediction** of polymer thermal behavior.
+This project facilitates polymer property prediction by integrating modern **graph-based deep learning** techniques with **chemical descriptors**, providing a scalable and data-driven alternative to conventional experimental approaches.
 
 ---
 
