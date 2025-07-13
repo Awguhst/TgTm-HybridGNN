@@ -63,12 +63,6 @@ The model achieves a **cross-validation R² score of 0.80 for Tg** and **0.70 fo
 - Veličković, P., Cucurull, G., Casanova, A., Romero, A., Lio, P., & Bengio, Y. (2018). Graph Attention Networks. *International Conference on Learning Representations (ICLR)*.  
   [https://doi.org/10.48550/arXiv.1710.10903](https://doi.org/10.48550/arXiv.1710.10903)
 
-- RDKit: Open-source cheminformatics software. (2006).  
-  Available at: [http://www.rdkit.org](http://www.rdkit.org)
-
-- Jolliffe, I.T. (2002). *Principal Component Analysis*. Springer Series in Statistics.  
-  ISBN: 978-0-387-95442-4
-
 - Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E. (2017). Neural Message Passing for Quantum Chemistry. *International Conference on Machine Learning (ICML)*.  
   [https://doi.org/10.48550/arXiv.1704.01212](https://doi.org/10.48550/arXiv.1704.01212)
 
@@ -77,4 +71,10 @@ The model achieves a **cross-validation R² score of 0.80 for Tg** and **0.70 fo
 
 - Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., ... & Duchesnay, E. (2011). Scikit-learn: Machine Learning in Python. *Journal of Machine Learning Research*, 12, 2825–2830.  
   [https://jmlr.org/papers/v12/pedregosa11a.html](https://jmlr.org/papers/v12/pedregosa11a.html)
+
+- RDKit: Open-source cheminformatics software. (2006).  
+  Available at: [http://www.rdkit.org](http://www.rdkit.org)
+
+- Jolliffe, I.T. (2002). *Principal Component Analysis*. Springer Series in Statistics.  
+  ISBN: 978-0-387-95442-4
 "
