@@ -29,7 +29,7 @@ This project facilitates polymer property prediction by integrating modern **gra
 
 The prediction model is based on a **HybridGNN** architecture that:
 
-- Constructs a graph representation of the monomer using atom/bond information
+- Constructs a graph representation of the monomer
 - Extracts RDKit-based descriptors (e.g., molecular weight, LogP, H-bond acceptors)
 - Applies **Principal Component Analysis (PCA)** to reduce descriptor dimensionality
 - Fuses the learned **graph embeddings** with **descriptor vectors**
