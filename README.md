@@ -1,4 +1,4 @@
-# 🧬 HybridGNN Polymer Property Predictor
+# HybridGNN Polymer Property Predictor
 
 This project presents a machine learning framework for the **simultaneous prediction** of two fundamental thermal properties of polymers:
 
