@@ -35,6 +35,8 @@ The prediction model is based on a **HybridGNN** architecture that:
 - Fuses the learned **graph embeddings** with **descriptor vectors**
 - Performs **multi-target regression** to jointly predict Tg and Tm
 
+The dataset consists of **1,564 polymer samples** collected from various **peer-reviewed polymer chemistry publications**. Each sample includes the monomer’s **SMILES representation**, along with experimentally measured values for **Glass Transition Temperature (Tg)** and **Melting Temperature (Tm)**.
+
 An interactive **Streamlit-based interface** allows users to input SMILES strings and instantly visualize and predict polymer properties.
 
 ---
