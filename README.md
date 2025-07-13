@@ -15,8 +15,6 @@ The core model leverages a **Hybrid Graph Neural Network (HybridGNN)** architect
 
 ![Streamlit app GIF](doc/demo.gif)
 
-> *Preview of the Streamlit interface used for polymer property prediction.*
-
 ---
 
 ## Motivation
