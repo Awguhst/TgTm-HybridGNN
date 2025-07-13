@@ -15,6 +15,8 @@ The core model leverages a **Hybrid Graph Neural Network (HybridGNN)** architect
 
 ![Streamlit app GIF](doc/demo.gif)
 
+<sub><i>Preview of the Streamlit interface used for polymer property prediction.</i></sub>
+
 ---
 
 ## Motivation
@@ -47,7 +49,7 @@ The HybridGNN consists of a stack of:
 
 - `Graph Isomorphism Network (GIN)`
 - `Graph Attention Network (GAT)`
-- `GraphConv` layers
+- `GraphConv`
 
 These layers extract multi-scale structural information, which is then combined with compressed descriptors through fully connected layers.
 
