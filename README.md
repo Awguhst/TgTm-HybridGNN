@@ -17,7 +17,7 @@ The core model leverages a **Hybrid Graph Neural Network (HybridGNN)** architect
 
 ---
 
-## 🎯 Motivation
+## Motivation
 
 Understanding and predicting **polymer thermal properties** is essential for designing new materials in fields such as **packaging**, **coatings**, **electronics**, and **aerospace**. However, traditional experimental methods tend to be **resource intensive** and **time consuming**.
 
@@ -25,7 +25,7 @@ This project facilitates polymer property prediction by integrating modern **gra
 
 ---
 
-## 🔬 Overview
+## Overview
 
 The prediction model is based on a **HybridGNN** architecture that:
 
@@ -39,7 +39,7 @@ An interactive **Streamlit-based interface** allows users to input SMILES string
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 The HybridGNN consists of a stack of:
 
@@ -48,6 +48,8 @@ The HybridGNN consists of a stack of:
 - `GraphConv` layers
 
 These layers extract multi-scale structural information, which is then combined with compressed descriptors through fully connected layers.
+
+The model achieves a **cross-validation R² score of 0.80 for Tg** and **0.70 for Tm**, indicating strong predictive performance across both thermal properties.
 
 ---
 
@@ -64,4 +66,13 @@ These layers extract multi-scale structural information, which is then combined 
 
 - Jolliffe, I.T. (2002). *Principal Component Analysis*. Springer Series in Statistics.  
   ISBN: 978-0-387-95442-4
+
+- Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E. (2017). Neural Message Passing for Quantum Chemistry. *International Conference on Machine Learning (ICML)*.  
+  [https://doi.org/10.48550/arXiv.1704.01212](https://doi.org/10.48550/arXiv.1704.01212)
+
+- Feinberg, E. N., et al. (2018). PotentialNet for Molecular Property Prediction. *ACS Central Science*, 4(11), 1520–1530.  
+  [https://doi.org/10.1021/acscentsci.8b00507](https://doi.org/10.1021/acscentsci.8b00507)
+
+- Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., ... & Duchesnay, E. (2011). Scikit-learn: Machine Learning in Python. *Journal of Machine Learning Research*, 12, 2825–2830.  
+  [https://jmlr.org/papers/v12/pedregosa11a.html](https://jmlr.org/papers/v12/pedregosa11a.html)
 "
