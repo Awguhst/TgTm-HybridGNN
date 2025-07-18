@@ -71,8 +71,9 @@ The model achieves a **cross-validation R² score of 0.80 for Tg** and **0.70 fo
 
 ---
 
-**Note:** This is a demo project. File paths assume a certain folder structure.  
-If you're trying to run it, you may need to move files into the same folder or adjust the paths.
+> ⚠️ **Note:** This is a demo project.  
+> File paths assume a specific folder structure.  
+> If you're trying to run it, you may need to move files into the same folder or adjust the paths accordingly.
 
 ---
 
