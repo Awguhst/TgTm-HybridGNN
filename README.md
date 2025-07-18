@@ -43,6 +43,20 @@ An interactive **Streamlit-based interface** allows users to input SMILES string
 
 ---
 
+## Similarity Feature
+
+In addition to property prediction, the app includes a **molecular similarity search** feature. Given a **user-input SMILES string**, the model computes a **Tanimoto similarity score** between the query molecule and all entries in the dataset, based on **ECFP (Morgan) fingerprints**. The most similar polymers are then displayed along with their known **Tg** and **Tm** values, offering valuable context and interpretability.
+
+This feature allows users to:
+
+- Quickly identify structurally similar polymers  
+- Compare predicted vs. experimental thermal properties  
+- Gain insights from analogous known compounds  
+
+The similarity search enhances transparency and helps users **interpret predictions by example**, bridging the gap between data-driven modeling and chemical intuition.
+
+---
+
 ## Model Architecture
 
 The HybridGNN consists of a stack of:
